@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 5%;
+  /* border: 1px solid gray; */
+  padding-left: 2px;
+  box-shadow: 0 6px 4px -6px black;
+  background-color: rgb(127, 127, 213);
+  color: white;
+}
+
+.left {
+  display: flex;
+  gap: 5px;
+}
+
+.title {
+  font-size: large;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.about {
+  font-size: large;
+  cursor: pointer;
+}
